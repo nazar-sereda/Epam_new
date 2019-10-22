@@ -22,6 +22,7 @@ public class Task1 {
 
         System.out.println(sum);
 
+
         System.out.println("Final value -> " + (reversed - sum));
     }
 }
