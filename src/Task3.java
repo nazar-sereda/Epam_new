@@ -11,6 +11,8 @@ public class Task3 {
                 x--;
             }
 
+
+
             System.out.println(" ");
             y++;
         }
