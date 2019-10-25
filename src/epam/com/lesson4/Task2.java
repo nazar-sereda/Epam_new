@@ -21,10 +21,10 @@ public class Task2 {
         String option = str.readLine();
 
         if (option.equals("i")){
-            System.out.println("Integer format -> " + converterInteger(number));
+            System.out.println("Integer format ->  " + converterInteger(number));
         }
         else if (option.equals("s")){
-            System.out.println("String format -> " + converterString(number));
+            System.out.println("String format ->  " + converterString(number));
         }
 
     }

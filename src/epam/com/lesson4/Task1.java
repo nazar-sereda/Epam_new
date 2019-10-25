@@ -11,7 +11,7 @@ public class Task1 {
     public static void main(String[] args) throws IOException {
 
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        System.out.print("Enter a word -> ");
+        System.out.print("Enter a word ->  ");
         String str = reader.readLine();
 
         System.out.println(unic(str));

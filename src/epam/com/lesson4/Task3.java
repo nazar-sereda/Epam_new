@@ -8,7 +8,7 @@ public class Task3 {
     public static void main(String[] args) throws IOException {
 
         BufferedReader reader = new BufferedReader( new InputStreamReader(System.in));
-        System.out.print("Enter a number -> ");
+        System.out.print("Enter a number ->  ");
         String str = reader.readLine();
 
         reverse(str);
