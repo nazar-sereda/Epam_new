@@ -1,28 +1,32 @@
 public class Task1 {
     public static void main(String[] args) {
-        int number = 123;
-        int reversed = 0;
 
+        int i = 1;
 
-        while (number != 0){
-            int digit = number % 10;
-            reversed = reversed * 10 +digit;
-            number = number/10;
+        while (i<=8){
+            int j = i;
+
+            while (j>0){
+                System.out.print("*");
+                j--;
+            }
+            System.out.println(" ");
+            i++;
         }
 
-        System.out.println(reversed);
+        int a = 7;
 
-        int sum = 0;
-        int reversed2 = reversed;
+        while (a>=1){
+            int b = a;
 
-        while (reversed2 > 0){
-            sum = sum + reversed2 % 10;
-            reversed2 = reversed2 /10;
+            while (b>0){
+                System.out.print("*");
+                b--;
+            }
+            System.out.println(" ");
+            a--;
         }
 
-        System.out.println(sum);
 
-
-        System.out.println("Final value -> " + (reversed - sum));
     }
 }
